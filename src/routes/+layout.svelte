@@ -1,7 +1,7 @@
 <script lang="ts">
 	import favicon from '$lib/assets/favicon.svg';
 
-	import CanvasPortalTarget from '$lib/components/CanvasPortalTarget.svelte';
+	import Target from '$lib/components/Target.svelte';
 	import { Canvas } from '@threlte/core';
 	import type { Snippet } from 'svelte';
 
@@ -14,7 +14,7 @@
 
 <div>
 	<Canvas>
-		<CanvasPortalTarget />
+		<Target />
 	</Canvas>
 </div>
 

@@ -1,3 +1,7 @@
+from math import cos, radians, sin
+from random import uniform
+
+
 class organism():
     def __init__(self, settings, wih=None, who=None, name=None):
         

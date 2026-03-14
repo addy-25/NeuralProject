@@ -11,6 +11,7 @@
 	useTask((delta) => {
 		rotation += delta;
 	});
+	
 </script>
 
 <T.PerspectiveCamera

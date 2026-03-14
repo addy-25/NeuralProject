@@ -1,11 +1,9 @@
 <script lang="ts">
-	import CanvasPortal from '$lib/components/CanvasPortal.svelte';
-	import CanvasSceneContent from '$lib/components/CanvasSceneContent.svelte';
+	import Portal from '$lib/components/Portal.svelte';
+	import Scene from '$lib/components/Scene.svelte';
 </script>
 
-<!-- Regular DOM elements for UI -->
-<button>Click me</button>
-<!-- 3D content -->
-<CanvasPortal>
-	<CanvasSceneContent />
-</CanvasPortal>
+<!-- content -->
+<Portal>
+	<Scene />
+</Portal>

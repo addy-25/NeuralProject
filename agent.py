@@ -1,6 +1,5 @@
 import numpy as np
 import math
-from neural import NeuralNet
 
 # World dimensions — must match main.py
 W, H = 800, 600

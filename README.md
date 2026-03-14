@@ -1,0 +1,1 @@
+(ok)[https://nry.me/posts/2017-11-30/evolving-simple-organisms-using-a-genetic-algorithm-and-deep-learning/]

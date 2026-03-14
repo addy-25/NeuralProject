@@ -1,8 +1,11 @@
-<script>
-	import { Canvas } from '@threlte/core';
-	import Scene from './Scene.svelte';
+<script lang="ts">
+	import CanvasPortal from '$lib/components/CanvasPortal.svelte';
+	import CanvasSceneContent from '$lib/components/CanvasSceneContent.svelte';
 </script>
 
-<Canvas>
-	<Scene />
-</Canvas>
+<!-- Regular DOM elements for UI -->
+<button>Click me</button>
+<!-- 3D content -->
+<CanvasPortal>
+	<CanvasSceneContent />
+</CanvasPortal>
